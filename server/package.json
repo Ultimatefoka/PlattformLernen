@@ -1,0 +1,32 @@
+{
+  "name": "plserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js --exec \"npm run lint --fix && node\"",
+    "lint": "eslint --fix **/*.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StrndedLeander/PlattformLernen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StrndedLeander/PlattformLernen/issues"
+  },
+  "homepage": "https://github.com/StrndedLeander/PlattformLernen#readme",
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4"
+  }
+}
